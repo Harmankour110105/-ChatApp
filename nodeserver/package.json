@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This is a node server for our ichat application ",
   "main": "index.js",
-  "engines":{
-    "node":"14.x"
+  "engines": {
+    "node": "14.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,9 @@
   "author": "harman",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.0.1",
     "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
